@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barcode Generator</title>
+  <link rel="shortcut icon" href="1.jpg" type="image/jpeg" />
+
+  <!-- Google Fonts-->
+  <link
+          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+          rel="stylesheet"
+  />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="background-video" playsinline>
+  <source src="1.mp4" type="video/mp4" />
+</video>
+
+<!-- Main Content -->
+<div class="container">
+  <h1 class="futuristic-heading">Barcode Generator</h1>
+  <input type="text" id="input" />
+  <button id="btn-barcode-generator">Generate</button>
+  <svg id="barcode">
+
+    <div class="barcode-actions">
+    <button id="download-barcode">Download</button>
+    <button id="share-barcode">Share</button>
+  </div>
+
+
+  </svg>
+
+</div>
+<footer id="footer">
+  <p>Developed by <span>Shoham</span></p>
+</footer>
+
+
+
+<!-- Barcode Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #0092fd;
+  }
+  .container {
+    width: min(500px, 90vw);
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3rem;
+    border-radius: 0.8em;
+  }
+  h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  input {
+    width: 60%;
+    border: 1px solid #000000;
+    padding: 1em;
+    border-radius: 0.7em;
+  }
+  button {
+    background-color: #0092fd;
+    color: #ffffff;
+    border: none;
+    width: 38%;
+    border-radius: 0.7em;
+    padding: 1em;
+    font-size: 0.8em;
+  }
+
+  /* Background Video Styling */
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  /* Main Container Styling */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+  }
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+#btn-barcode-generator {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #00ffff;
+  background-color: transparent;
+  border: 2px solid #00ffff;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ccff;
+  transition: all 0.3s ease;
+}
+
+#btn-barcode-generator:hover {
+  background-color: #00ffff;
+  color: #000;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ccff, 0 0 30px #00ccff;
+}
+
+.futuristic-heading {
+  font-size: 3rem;
+  color: #00ffff;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow:
+    0 0 2px #00ffff,
+    0 0 4px #00e0ff,
+    0 0 6px #00d0ff;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1px solid #00e0ff;
+  padding-bottom: 0.5rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  animation: glow-pulse 2s infinite ease-in-out;
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    text-shadow:
+      0 0 2px #00ffff,
+      0 0 4px #00e0ff,
+      0 0 6px #00d0ff;
+  }
+  50% {
+    text-shadow:
+      0 0 4px #00ffff,
+      0 0 6px #00e0ff,
+      0 0 8px #00d0ff;
+  }
+}
+
+.barcode-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.barcode-actions button {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  border: 2px solid #00ffff;
+  background-color: transparent;
+  color: #00ffff;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 4px #00ffff, 0 0 7px #00e0ff;
+  transition: all 0.3s ease;
+}
+
+.barcode-actions button:hover {
+  background-color: #00ffff;
+  color: #000;
+  box-shadow: 0 0 7px #00ffff, 0 0 15px #00e0ff;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: transparent; /* or any background if you want */
+  color: #00ffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  box-shadow: 0 -1px 10px rgba(0, 255, 255, 0.3);
+  user-select: none;
+  z-index: 9999;
+}
+
+#footer span {
+  font-weight: bold;
+  color: #00ffff;
+}
