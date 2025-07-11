@@ -46,7 +46,7 @@
 <!-- Barcode Script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.6/JsBarcode.all.min.js"></script>
 <script src="script.js"></script>
-
+<script>
   if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
@@ -55,6 +55,8 @@
       .catch(err => console.log("Service Worker registration failed", err));
   });
 }
+</script>
+  
 
 </body>
 </html>
