@@ -1,0 +1,20 @@
+{
+  "name": "Barcode Generator",
+  "short_name": "BarcodeGen",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00ffff",
+  "icons": [
+    {
+      "src": "1.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "1.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
